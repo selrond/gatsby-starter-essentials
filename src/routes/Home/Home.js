@@ -1,7 +1,8 @@
 import React from 'react'
+import App from 'App'
 
 const Home = () => {
-  return <div>Hello there!</div>
+  return <App>Hello there!</App>
 }
 
 export default Home
