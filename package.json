@@ -1,0 +1,56 @@
+{
+  "name": "gatsby-starter-essentials",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Gatsby starter providing solid essentials to build upon",
+  "main": "index.js",
+  "scripts": {
+    "build": "gatsby build",
+    "build:debug": "gatsby build --no-uglify && gatsby serve -H 0.0.0.0",
+    "build:preview": "gatsby build && gatsby serve -H 0.0.0.0",
+    "develop": "gatsby develop -H 0.0.0.0",
+    "format": "eslint '**/*.js' --fix",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/selrond/gatsby-starter-essentials.git"
+  },
+  "keywords": [
+    "gatsby",
+    "starter",
+    "styled-components",
+    "eslint",
+    "prettier",
+    "react"
+  ],
+  "author": "Sebastian Andil <sebastian.andil@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/selrond/gatsby-starter-essentials/issues"
+  },
+  "homepage": "https://github.com/selrond/gatsby-starter-essentials#readme",
+  "dependencies": {
+    "gatsby": "^2.17.15",
+    "gatsby-plugin-manifest": "^2.2.28",
+    "gatsby-plugin-styled-components": "^3.1.13",
+    "prettier": "^1.19.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "styled-components": "^4.4.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.6.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^1.7.0"
+  }
+}
