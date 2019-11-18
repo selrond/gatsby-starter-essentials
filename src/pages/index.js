@@ -1,1 +1,3 @@
-export { default } from 'routes/Home'
+import Home from 'routes/Home'
+
+export default Home
