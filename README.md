@@ -5,6 +5,7 @@
 ## Features
 
 - sensible folder structure
+- pre-commit eslint hook
 - absolute imports (no more `import Button from '../../../../../components/atoms/Button'`)
 - styled-components
 - eslint with Airbnb config
