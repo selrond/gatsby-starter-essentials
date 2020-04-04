@@ -9,6 +9,7 @@
     "build:debug": "gatsby build --no-uglify && gatsby serve -H 0.0.0.0",
     "build:preview": "gatsby build && gatsby serve -H 0.0.0.0",
     "develop": "gatsby develop -H 0.0.0.0",
+    "lint": "eslint '**/*.js'",
     "format": "eslint '**/*.js' --fix",
     "start": "npm run develop",
     "serve": "gatsby serve",
