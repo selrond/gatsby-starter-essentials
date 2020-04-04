@@ -9,8 +9,8 @@
     "build:debug": "gatsby build --no-uglify && gatsby serve -H 0.0.0.0",
     "build:preview": "gatsby build && gatsby serve -H 0.0.0.0",
     "develop": "gatsby develop -H 0.0.0.0",
-    "lint": "eslint '**/*.js'",
-    "format": "eslint '**/*.js' --fix",
+    "lint": "eslint --ignore-path .gitignore '**/*.js'",
+    "format": "eslint --ignore-path .gitignore '**/*.js' --fix",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
