@@ -55,7 +55,7 @@
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^1.7.0",
     "husky": "^4.2.3",
-    "lint-staged": "^10.1.1",
+    "lint-staged": "^10.2.6",
     "prop-types": "^15.7.2"
   },
   "husky": {
