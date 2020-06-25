@@ -37,7 +37,7 @@
     "gatsby": "^2.20.12",
     "gatsby-plugin-manifest": "^2.4.9",
     "babel-plugin-styled-components": "^1.10.7",
-    "gatsby-plugin-styled-components": "^3.3.0",
+    "gatsby-plugin-styled-components": "^3.3.6",
     "prettier": "^2.0.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.0",
