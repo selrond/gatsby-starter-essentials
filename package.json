@@ -36,7 +36,7 @@
   "dependencies": {
     "babel-plugin-styled-components": "^1.11.1",
     "gatsby": "^2.24.60",
-    "gatsby-plugin-manifest": "^2.4.29",
+    "gatsby-plugin-manifest": "^2.4.30",
     "gatsby-plugin-styled-components": "^3.3.11",
     "prettier": "^2.1.1",
     "react": "^16.13.1",
