@@ -35,7 +35,7 @@
   "homepage": "https://github.com/selrond/gatsby-starter-essentials#readme",
   "dependencies": {
     "babel-plugin-styled-components": "^1.11.1",
-    "gatsby": "^2.25.3",
+    "gatsby": "^2.25.4",
     "gatsby-plugin-manifest": "^2.5.2",
     "gatsby-plugin-styled-components": "^3.3.14",
     "prettier": "^2.1.2",
