@@ -13,7 +13,8 @@
     "format": "eslint --ignore-path .gitignore '**/*.js' --fix",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -59,15 +60,9 @@
     "lint-staged": "^10.5.4",
     "prop-types": "^15.7.2"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*.js": [
-      "eslint",
-      "git add"
+      "lint"
     ]
   }
 }
